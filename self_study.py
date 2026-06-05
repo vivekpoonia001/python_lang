@@ -91,9 +91,26 @@
 #         result.append("odd")
 # print(result)
 # sum of list 
-l1 = [1,2,4,667,7,866,788,56]
-sum =0
-for i in l1: 
-    sum+=i
-print(sum)
+# l1 = [1,2,4,667,7,866,788,56]
+# sum =0
+# for i in l1: 
+#     sum+=i
+# print(sum)
 
+# l = [1,24,55,67,786,45,6,7,888,865]
+# count = 0 
+# for i in l:
+#     if i %2==0:
+#         count+=1
+#     elif i %2!=0:
+#         count+=1
+        
+# print(count)
+l1 = [1,34,56,7,887654,3578,8654,45678,8765,43]
+largest = l1[0]
+for i in l1:
+    if i >largest:
+        largest = i
+print(largest)
+
+    
