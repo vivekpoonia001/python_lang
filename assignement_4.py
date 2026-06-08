@@ -30,7 +30,7 @@ for i in l:
    if len(i)<4:
     new.append(i)
 print(new)
-question 5
+#question 5
 num_2 = []
 num = range(20)
 for i in num:
