@@ -28,8 +28,20 @@
 # v = {"a","b","c"}
 # dict_5 = {i:j for i ,j in zip(a,v)}
 # print(dict_5)
-d = {}
-for i in range(5):
-    d[int(input("enter index: "))] = input("enter the value: ")
-print(d)
-print(d[3])
+# d = {}
+# for i in range(5):
+#     d[int(input("enter index: "))] = input("enter the value: ")
+# print(d)
+# print(d[3])
+dict_1 = { "Name": "Vivek", "age": 20, "city": "Mohali" }
+# print(dict_1)
+# print(dict_1['age'])
+# dict_1["Course"] = "Data Anlayst"
+# print(dict_1)
+# dict_1.update(age = 21)
+# print(dict_1)
+# print(dict_1.keys())
+# print(dict_1.values())
+# print(dict_1, end ="\n")
+for key , values in dict_1.items():
+    print(key,":",values)
